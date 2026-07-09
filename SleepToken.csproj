@@ -3,12 +3,21 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	  <Nullable>enable</Nullable>
+	  <LangVersion>latestmajor</LangVersion>
+	  <ModFolderName>Passive Festival - Sleep Token Live</ModFolderName>
+	  <Authors>Aviroen</Authors>
+	  <UniqueId>Aviroen.SleepToken</UniqueId>
+	  <UpdateKeys>Nexus:26734@SleepToken, Nexus:26734@SleepTokenMusic, GitHub:Aviroen/SleepToken</UpdateKeys>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1" />
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
   </ItemGroup>
+	<ItemGroup>
+		<ContentPacks Include="[CP] SleepToken" />
+		<ContentPacks Include="[CP] SleepTokenMusic" />
+	</ItemGroup>
 
 </Project>

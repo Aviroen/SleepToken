@@ -1,0 +1,20 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "Aviroen.SleepToken",
+  "Name": "SleepToken",
+  "Author": "Aviroen",
+  "Version": "1.0.0-Debug",
+  "EntryDll": "SleepToken.dll",
+  "UpdateKeys": [
+    "Nexus:26734@SleepToken",
+    "Nexus:26734@SleepTokenMusic",
+    "GitHub:Aviroen/SleepToken"
+  ]
+}
