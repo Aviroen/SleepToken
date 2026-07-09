@@ -1,0 +1,235 @@
+{
+ "Changes": [
+  //data/location
+  {
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "Entries": {
+    "{{ModId}}": {
+     "DisplayName": "{{i18n:{{ModId}}}}",
+     "DefaultArrivalTile": {
+      "X": 20,
+      "Y": 4
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{ModId}}",
+      "AlwaysActive": false
+     },
+     "MusicDefault": null
+    },
+    "{{ModId}}_Room": {
+     "DisplayName": "{{i18n:Room}}",
+     "DefaultArrivalTile": {
+      "X": 9,
+      "Y": 14
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{ModId}}_Room",
+      "AlwaysActive": false
+     },
+     "MusicDefault": null
+    }
+   }
+  },
+  //data/passivefestival
+  {
+   "Action": "EditData",
+   "Target": "Data/PassiveFestivals",
+   "Entries": {
+    "{{ModId}}": {
+     "DisplayName": "{{i18n:Festival.Name}}",
+     "Condition": null,
+     "ShowOnCalendar": true,
+     "Season": "Fall",
+     "StartDay": 8,
+     "EndDay": 9,
+     "StartTime": 1700,
+     "StartMessage": "{{i18n:Festival.StartMessage}}",
+     "OnlyShowMessageOnFirstDay": false,
+     "MapReplacements": {
+      "Beach": "{{ModId}}"
+     },
+     "DailySetupMethod": null,
+     "CleanupMethod": null,
+     "CustomFields": null
+    }
+   }
+  },
+  //warps
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Room",
+   "AddNpcWarps": [
+    "5 5 {{ModId}} 88 28"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}",
+   "AddNpcWarps": [
+    "88 27 {{ModId}}_Room 10 10"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 55,
+      "Y": 33
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_1 {{ModId}}_1"
+     }
+    },
+    {
+     "Position": {
+      "X": 57,
+      "Y": 35
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_2 {{ModId}}_2"
+     }
+    },
+    {
+     "Position": {
+      "X": 58,
+      "Y": 33
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_3 {{ModId}}_3"
+     }
+    },
+    {
+     "Position": {
+      "X": 59,
+      "Y": 35
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_4 {{ModId}}_4"
+     }
+    },
+    {
+     "Position": {
+      "X": 61,
+      "Y": 33
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_5 {{ModId}}_5"
+     }
+    },
+    {
+     "Position": {
+      "X": 62,
+      "Y": 32
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_6 {{ModId}}_6"
+     }
+    },
+    {
+     "Position": {
+      "X": 67,
+      "Y": 32
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_7 {{ModId}}_7"
+     }
+    },
+    {
+     "Position": {
+      "X": 67,
+      "Y": 35
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_8 {{ModId}}_8"
+     }
+    },
+    {
+     "Position": {
+      "X": 68,
+      "Y": 34
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_9 {{ModId}}_9"
+     }
+    },
+    {
+     "Position": {
+      "X": 69,
+      "Y": 33
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_10 {{ModId}}_10"
+     }
+    },
+    {
+     "Position": {
+      "X": 72,
+      "Y": 33
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_11 {{ModId}}_11"
+     }
+    },
+    {
+     "Position": {
+      "X": 75,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_12 {{ModId}}_12"
+     }
+    },
+    {
+     "Position": {
+      "X": 72,
+      "Y": 23
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_13 {{ModId}}_13"
+     }
+    },
+    {
+     "Position": {
+      "X": 65,
+      "Y": 23
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "NPCSpeechMessageNoRadius {{ModId}}_13 {{ModId}}_13"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditData",
+   "Target": "Strings/StringsFromMaps",
+   "Entries": {
+    "{{ModId}}_1": "{{i18n:Map_1}}",
+    "{{ModId}}_2": "{{i18n:Map_2}}",
+    "{{ModId}}_3": "{{i18n:Map_3}}",
+    "{{ModId}}_4": "{{i18n:Map_4}}",
+    "{{ModId}}_5": "{{i18n:Map_5}}",
+    "{{ModId}}_6": "{{i18n:Map_6}}",
+    "{{ModId}}_7": "{{i18n:Map_7}}",
+    "{{ModId}}_8": "{{i18n:Map_8}}",
+    "{{ModId}}_9": "{{i18n:Map_9}}", //jiggler Dolphin TDIT
+    "{{ModId}}_10": "{{i18n:Map_10}}",
+    "{{ModId}}_11": "{{i18n:Map_11}}",
+    "{{ModId}}_12": "{{i18n:Map_12}}",
+    "{{ModId}}_13": "{{i18n:Map_13}}"
+   }
+  }
+ ]
+}

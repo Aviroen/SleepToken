@@ -1,0 +1,104 @@
+{
+ "Changes": [
+  { //blank loads so that i can target edit
+   "LogName": "BlankLoads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/Dialogue/{{ModId}}_{{ST@NAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{ST@NAME}}, Characters/Schedules/{{ModId}}_{{ST@NAME}}, Strings/Schedules/{{ModId}}_{{ST@NAME}}",
+   "FromFile": "Blank.json"
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "{{ModId}}_{{ST@NAME}}": {
+     "DisplayName": "{{i18n:{{ST@NAME}}}}",
+     "BirthSeason": "Fall",
+     "BirthDay": 18,
+     "HomeRegion": "Town",
+     "Language": "Default",
+     "Gender": "Male",
+     "Age": "Adult",
+     "Manner": "Polite",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": true,
+     "CanBeRomanced": false,
+     "LoveInterest": null,
+     "Calendar": "HiddenAlways",
+     "SocialTab": "HiddenAlways",
+     "CanSocialize": true,
+     "CanReceiveGifts": false,
+     "CanGreetNearbyCharacters": false,
+     "CanCommentOnPurchasedShopItems": false,
+     "CanVisitIsland": false,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": false,
+     "PerfectionScore": false,
+     "EndSlideShow": "TrailingGroup",
+     "SpouseAdopts": false,
+     "SpouseWantsChildren": false,
+     "SpouseGiftJealousy": false,
+     "SpouseGiftJealousyFriendshipChange": -30,
+     "DumpsterDiveFriendshipEffect": 0,
+     "DumpsterDiveEmote": 40,
+     "FlowerDanceCanDance": false,
+     "UnlockConditions": null,
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "{{ModId}}",
+       "Location": "{{ModId}}_Room",
+       "Tile": {
+        "X": "{{XHOME}}",
+        "Y": "{{YHOME}}"
+       },
+       "Direction": "2"
+      }
+     ],
+     "TextureName": "{{ModId}}_{{ST@NAME}}"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{ModId}}_{{ST@NAME}}": "{{i18n:LovedGifts}}/74/{{i18n:LikedGifts}}/74/{{i18n:DislikedGifts}}/100/{{i18n:HatedGifts}}/101/{{i18n:NeutralGifts}}/102/"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/animationDescriptions",
+   "Entries": {
+    "{{ModId}}_{{ST@NAME}}_stand": "0/0/0",
+    "{{Lowercase:{{ModId}}_{{ST@NAME}}_sleep}}": "16/16/16",
+    "{{ModId}}_{{ST@NAME}}_1stanim": "{{ST@1stANIM}}",
+    "{{ModId}}_{{ST@NAME}}_2ndanim": "{{ST@2ndANIM}}"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/Schedules/{{ModId}}_{{ST@NAME}}",
+   "Entries": {
+    "{{ModId}}_1": "{{DAY1SCHEDULE}}",
+    "{{ModId}}_2": "{{DAY2SCHEDULE}}",
+    "spring": "{{SPRINGSCHEDULE}}"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/{{ModId}}_{{ST@NAME}}",
+   "Entries": {
+    "Beach": "{{i18n:{{ST@NAME}}.Beach}}",
+    "Mon": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Tue": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Wed": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Thu": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Fri": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Sat": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}",
+    "Sun": "{{i18n:{{ST@NAME}}.Beach_{{Random:{{Range:0,3}} }} }}"
+   }
+  }
+ ]
+}

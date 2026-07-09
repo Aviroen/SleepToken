@@ -1,0 +1,163 @@
+{
+ "Format": "2.9.0",
+ "ConfigSchema": {
+
+ },
+ "DynamicTokens": [
+  {
+   "Name": "Vessel",
+   "Value": "{{ModId}}_Vessel"
+  },
+  {
+   "Name": "II",
+   "Value": "{{ModId}}_II"
+  },
+  {
+   "Name": "III",
+   "Value": "{{ModId}}_III"
+  },
+  {
+   "Name": "IV",
+   "Value": "{{ModId}}_IV"
+  },
+  {
+   "Name": "TAH",
+   "Value": "action Spiderbuttons.BETAS_TextAboveHead"
+  },
+  {
+   "Name": "DBF",
+   "Value": "action Spiderbuttons.BETAS_DialogueBox {{ModId}}_Fake \""
+  },
+  {
+   "Name": "DBFWm",
+   "Value": "\" Portraits/Maru [LocalizedText Strings/NPCNames:Maru]"
+  },
+  {
+   "Name": "DBFWsa",
+   "Value": "\" Portraits/Sam [LocalizedText Strings/NPCNames:Sam]"
+  },
+  {
+   "Name": "DBFWse",
+   "Value": "\" Portraits/Sebastian [LocalizedText Strings/NPCNames:Sebastian]"
+  },
+  {
+   "Name": "DBFWa",
+   "Value": "\" Portraits/Abigail [LocalizedText Strings/NPCNames:Abigail]"
+  },
+  {
+   "Name": "DBFWsh",
+   "Value": "\" Portraits/Shane [LocalizedText Strings/NPCNames:Shane]"
+  }
+ ],
+ "Changes": [
+  //charloads
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/{{Vessel}}, Portraits/{{II}}, Portraits/{{III}}, Portraits/{{IV}}, Characters/{{Vessel}}, Characters/{{II}}, Characters/{{III}}, Characters/{{IV}}",
+   "FromFile": "Assets/{{Target}}.png"
+  },
+  {
+   "LogName": "Fake Actors",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/{{ModId}}_1, Portraits/{{ModId}}_2, Portraits/{{ModId}}_3, Portraits/{{ModId}}_4, Portraits/{{ModId}}_5, Portraits/{{ModId}}_6, Portraits/{{ModId}}_7, Portraits/{{ModId}}_8, Portraits/{{ModId}}_9, Portraits/{{ModId}}_10, Portraits/{{ModId}}_11, Portraits/{{ModId}}_12, Portraits/{{ModId}}_13",
+   "FromFile": "Assets/Portraits/blank.png"
+  },
+  //maploads
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Maps/{{ModId}}, Maps/{{ModId}}_Room",
+   "FromFile": "Assets/{{Target}}.tmx"
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Npcs.json, Data/MapNonsense.json, Data/VanillaNpcs.json"
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "Entries": {
+    "{{ModId}}_Shop": {
+     "Currency": 0,
+     "StackSizeVisibility": null,
+     "OpenSound": null,
+     "PurchaseSound": null,
+     "PurchaseRepeatSound": null,
+     "ApplyProfitMargins": null,
+     "PriceModifiers": null,
+     "PriceModifierMode": "Stack",
+     "Items": [
+      {
+       "Price": 250,
+       "Id": "(O)233",
+       "ItemId": "(O)233",
+       "AvailableStock": -1,
+       "AvailableStockLimit": "Global"
+      },
+      {
+       "Price": 250,
+       "Id": "(O)232",
+       "ItemId": "(O)232",
+       "AvailableStock": -1,
+       "AvailableStockLimit": "Global"
+      },
+      {
+       "Price": 250,
+       "Id": "(O)243",
+       "ItemId": "(O)243",
+       "AvailableStock": -1,
+       "AvailableStockLimit": "Global"
+      },
+      {
+       "Price": 250,
+       "Id": "(O)253",
+       "ItemId": "(O)253",
+       "AvailableStock": -1,
+       "AvailableStockLimit": "Global"
+      },
+      {
+       "Price": 250,
+       "Id": "(O)903",
+       "ItemId": "(O)903",
+       "AvailableStock": -1,
+       "AvailableStockLimit": "Global"
+      }
+     ],
+     "Owners": [
+      {
+       "Name": "AnyOrNone",
+       "Id": "TDIT",
+       "Condition": "Spiderbuttons.BETAS_HAS_MOD DolphINaF.ExtraPortraits", //DesertTrader_RacerGuy
+       "Portrait": "Portraits/DesertTrader_RacerGuy",
+       "Dialogues": [
+        {
+         "Id": "Random",
+         "RandomDialogue": [
+          "{{i18n:ShopOpen1}}",
+          "{{i18n:ShopOpen2}}"
+         ]
+        }
+       ]
+      },
+      {
+       "Name": "AnyOrNone",
+       "Id": "{{ModId}}",
+       "Condition": "!Spiderbuttons.BETAS_HAS_MOD DolphINaF.ExtraPortraits",
+       "Dialogues": [
+        {
+         "Id": "Random",
+         "RandomDialogue": [
+          "{{i18n:ShopOpen1}}",
+          "{{i18n:ShopOpen2}}"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

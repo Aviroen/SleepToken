@@ -1,0 +1,28 @@
+{
+ "UniqueID": "Aviroen.SleepToken",
+ "Name": "[CP] Sleep Token Festival",
+ "Author": "Aviroen",
+ "Version": "1.0.0",
+ "Description": "Because I have a problem and would like more passive festivals.",
+ "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher"
+ },
+ "Dependencies": [
+  {
+   "UniqueID": "spacechase0.SpaceCore",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Spiderbuttons.BETAS",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.MMAP",
+   "IsRequired": true
+  }
+ ],
+ "UpdateKeys": [
+  "Nexus:26734@SleepToken",
+  "GitHub:Aviroen/SleepToken"
+ ]
+}

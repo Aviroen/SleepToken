@@ -1,0 +1,68 @@
+{
+ "Format": "2.9.0",
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/AudioChanges",
+   "Entries": {
+    "Aviroen.SleepToken_Mix": {
+     "Id": "Aviroen.SleepToken_Mix",
+     "FilePaths": [
+      "{{AbsoluteFilePath:Audio/Sleep Token vs Aqua - Past Self x Barbie Girl (Goobsie Mashup).ogg}}",
+      "{{AbsoluteFilePath:Audio/Sleep Token vs Dayseeker - Even In Arcadia (The Album) vs Without Me (Goobsie Mashup).ogg}}",
+      "{{AbsoluteFilePath:Audio/Sleep Token - Look to Windward (INST).ogg}}",
+      "{{AbsoluteFilePath:Audio/Sleep Token - Provider (INST).ogg}}"
+     ],
+     "Category": "Music",
+     "StreamedVorbis": true,
+     "Looped": false
+    },
+    "Aviroen.SleepToken_Mix2": {
+     "Id": "Aviroen.SleepToken_Mix2",
+     "FilePaths": [
+      "{{AbsoluteFilePath:Audio/Sleep Token - Ascensionism.ogg}}",
+      "{{AbsoluteFilePath:Audio/Sleep Token - The Summoning.ogg}}",
+      "{{AbsoluteFilePath:Audio/Sleep Token - Vore.ogg}}"
+     ],
+     "Category": "Music",
+     "StreamedVorbis": true,
+     "Looped": false
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Mods/ichortower.PositionalAudio/Data",
+   "Entries": {
+    "Aviroen.SleepToken_Mix": {
+     "CueName": "Aviroen.SleepToken_Mix",
+     "Condition": "!IS_PASSIVE_FESTIVAL_OPEN Aviroen.SleepToken", //!ichortower.PositionalAudio_NPC_POSITION_RECT {{Vessel}} Aviroen.SleepToken 54 25 18 5, 
+     "Location": "Aviroen.SleepToken",
+     "TilePosition": {
+      "X": 63,
+      "Y": 26
+     },
+     "Radius": {
+      "Floor": 7.0,
+      "Shelf": 7.0,
+      "Maximum": 15.0
+     }
+    },
+    "Aviroen.SleepToken_Mix2": {
+     "CueName": "Aviroen.SleepToken_Mix2",
+     "Condition": "IS_PASSIVE_FESTIVAL_OPEN Aviroen.SleepToken", //!ichortower.PositionalAudio_NPC_POSITION_RECT {{Vessel}} Aviroen.SleepToken 54 25 18 5, 
+     "Location": "Aviroen.SleepToken",
+     "TilePosition": {
+      "X": 63,
+      "Y": 26
+     },
+     "Radius": {
+      "Floor": 11.0,
+      "Shelf": 11.0,
+      "Maximum": 25.0
+     }
+    }
+   }
+  }
+ ]
+}

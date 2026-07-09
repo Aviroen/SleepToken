@@ -1,0 +1,75 @@
+{
+ "Changes": [
+  {
+   "Action": "Load",
+   "Target": "{{ModId}}/Dialogue",
+   "FromFile": "Blank.json"
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Sebastian",
+    "POSITION1ANIM": "78 27 3 sebastian_smoking",
+    "POSITION2ANIM": "66 33 0",
+    "POSITION3ANIM": "78 27 3 sebastian_smoking",
+    "SLEEPPOS": "SebastianRoom 11 9 1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Maru",
+    "POSITION1ANIM": "76 28 3",
+    "POSITION2ANIM": "65 33 0",
+    "POSITION3ANIM": "78 28 1",
+    "SLEEPPOS": "ScienceHouse 2 4 3"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Sam",
+    "POSITION1ANIM": "59 31 0",
+    "POSITION2ANIM": "64 33 0",
+    "POSITION3ANIM": "78 29 1",
+    "SLEEPPOS": "SamHouse 22 13 1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Abigail",
+    "POSITION1ANIM": "77 34 0 abigail_sit_down",
+    "POSITION2ANIM": "56 30 0 abigail_flute",
+    "POSITION3ANIM": "76 28 1",
+    "SLEEPPOS": "SeedShop 1 9 3"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Shane",
+    "POSITION1ANIM": "50 35 2 shane_drink",
+    "POSITION2ANIM": "65 32 0",
+    "POSITION3ANIM": "48 31 3",
+    "SLEEPPOS": "AnimalShop 27 4 1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "Leah",
+    "POSITION1ANIM": "54 35 0",
+    "POSITION2ANIM": "68 30 0",
+    "POSITION3ANIM": "74 39 3",
+    "SLEEPPOS": "LeahHouse 2 4 3"
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "Festival.Name": "Sleep Token Live Concert",
+ "Festival.StartMessage": "The Sleep Token Live Concert has started on the Beach.",
+ "Aviroen.SleepToken": "Sleep Token Live Concert Festival Area",
+ "Room": "Why are you here?",
+
+ //textabovehead hopefully
+ "x1Line": "Won't you come and dance in the dark with me?",
+ "x2Line": "Show me what you are, I am desperate to know~",
+ "x3Line": "Nobody better than the perfect enemy~",
+ "x4Line": "Digital demons make the night feel heavenly~",
+ //
+ "2x1Line": "You have become the voice in my head~",
+ "2x2Line": "Only recourse we're left after death~",
+ "2x3Line": "Your viscera welcome me in~",
+ "2x4Line": "Welcome me in~",
+ //
+ "3x1Line": "Raise me up again~",
+ "3x2Line": "Take me past the edge~",
+ "3x3Line": "I want to see the other side~",
+ "3x4Line": "Won't you show me what it's like?~",
+ //
+ "4x1Line": "I wanna be a provider~",
+ "4x2Line": "Garner you in silk like a spider~",
+ "4x3Line": "Roll a die, you bet, I'm a rider~",
+ "4x4Line": "Your outer shell, your secret insider~",
+
+ //vessel
+ "Vessel": "Vessel",
+ "Vessel.Beach": "Hiya!$1",
+ "Vessel.Beach_0": "Coming to our concert?",
+ "Vessel.Beach_1": "Enjoying the show?$1",
+ "Vessel.Beach_2": "Pelican Town's been so nice to us!",
+ "Vessel.Beach_3": "So let's get swallowed whole~!#$b#I wanna go where nobody else will ever go~!$1",
+
+ //ii
+ "II": "II",
+ "II.Beach": "%II nods.",
+ "II.Beach_0": "...",
+ "II.Beach_1": "Hello.",
+ "II.Beach_2": "...",
+ "II.Beach_3": "...",
+
+ //iii
+ "III": "III",
+ "III.Beach": "%III waves at you.",
+ "III.Beach_0": "...",
+ "III.Beach_1": "Howdy!",
+ "III.Beach_2": "...",
+ "III.Beach_3": "...",
+
+ //iv
+ "IV": "IV",
+ "IV.Beach": "%IV nods at you.",
+ "IV.Beach_9": "...",
+ "IV.Beach_1": "Yes?",
+ "IV.Beach_2": "...",
+ "IV.Beach_3": "...",
+
+ //map shit
+ "ShopOpen1": "The bass of the music really makes one thirsty.",
+ "ShopOpen2": "Stay hydrated out there, kid.",
+ "Map_1": "%'I can't believe they're hosting a show here!'",
+ "Map_2": "%'Caught a boat from Central Station to get here!'",
+ "Map_3": "%'The trains took awhile, but I'm glad I made it!'",
+ "Map_4": "%They're just rocking out.",
+ "Map_5": "%'Never thought I'd get to see a metal show in Pelican Town!'",
+ "Map_6": "%'The masks are so mysterious!'",
+ "Map_7": "%'We've all agreed to not mosh, respectfully.'",
+ "Map_8": "%They're just singing along.",
+ "Map_9": "%'I wonder if that one band from here is still going...?'",
+ "Map_9Alt": "'I wonder if that one band from here is still going...?'",
+ "Map_10": "%'I bought tickets for both days, couldn't miss this!'",
+ "Map_11": "%'These shows are always so fun with how much movement happens!'",
+ "Map_12": "%'The fireworks are just for show, but they're so fun to kick off!'",
+ "Map_13": "%'Sorry, band and crew only.'",
+
+ //vanilla npcs
+ "Sebastian.Day1_0": "Maru said she wanted to be in my life some more, so I figured I'd invite her to this metal show.$h#$b#I hope she likes it.$h",
+ "Sebastian.Day1_1": "Been listening to them on and off but live just hits different.$h#${{TAH}} Sebastian \"Half-algorithm, half-deity!\" 1000 0 true",
+ "Sebastian.Day1_Over": "So, how was it, Maru?$h#${{DBF}}It was great! The pyrotechnics especially-$h{{DBFM}}#$b#...Well I'm glad.$h",
+ //
+ "Maru.Day1_0": "Seb invited me because I asked about his likes.$h#$b#I'm not well versed in metal music... but they do have a lot of interesting devices for effect.$4",
+ "Maru.Day1_1": "It's so... loud!$9#$b#But also so fun!$h",
+ "Maru.Day1_Over": "The pyrotechnics especially, the fact that we can have these fireworks up close is such an interesting device-$4",
+ //
+ "Abigail.Day1_0": "The snacks here are so cheap, it's almost too tempting.$h",
+ "Abigail.Day1_1": "I was allowed to play along with my flute.$4",
+ "Abigail.Day1_Over": "The masks, the fireworks, the stage atmosphere--Sam we have to-$7#${{DBF}}Yeah, I'm so stoked for our own gig to be this big.$h{{DBFMsa}}",
+ //
+ "Sam.Day1_0": "Seb and Abi thought that seeing other talents that have been around would give me more inspiration.$h",
+ "Sam.Day1_1": "The atmosphere of this place is over the top!$8",
+ "Sam.Day1_Over": "Gosh, I just hope that our band will someday get this big.$10",
+ //
+ "Shane.Day1_0": "'Sup?#$e#Cold beer, head shaking music, nothing quite like live shows.$h",
+ "Shane.Day1_1": "Glad I could take the time to see this show for myself, this is great.$h",
+ "Shane.Day1_Over": "The allure of not knowing who the band members are and not being judged...$6",
+ //
+ "Leah.Day1_0": "Metal shows?#$e#I love them!$h#$b#I stopped listening for awhile because of my ex.$7#$b#I was the one that introduced the genre, but then I realized, it's MY thing.$2#$b#And I'm not gonna let someone who stifled me like that ruin it for me!$h#${{TAH}} Leah \"Man, that felt great to let out.\" 1000 0 true",
+ "Leah.Day1_1": "The inspiration, the masks, the music, I missed all of this.$h#${{TAH}} Diamonds in the trees, pentagrams in the night sky!\" 1000 0 true",
+ "Leah.Day1_Over": "Hopefully we can convince Lewis to keep this as a yearly gig.$4#$b#They just fuel so much inspiration in me!$h"
+}

@@ -1,0 +1,20 @@
+{
+ "UniqueID": "Aviroen.STMusic",
+ "Name": "[CP] Sleep Token Festival Music",
+ "Author": "Aviroen",
+ "Version": "1.0.0",
+ "Description": "The actual audio content for the Sleep Token passive festival, just in case.",
+ "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher"
+ },
+ "Dependencies": [
+  {
+   "UniqueID": "ichortower.PositionalAudio",
+   "IsRequired": true
+  }
+ ],
+ "UpdateKeys": [
+  "Nexus:26734@STMusic",
+  "GitHub:Aviroen/SleepToken"
+ ]
+}

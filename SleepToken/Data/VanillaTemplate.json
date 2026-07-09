@@ -1,0 +1,21 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "{{ModId}}/Dialogue",
+   "Entries": {
+    "{{NPC@NAME}}.Day1_0": "{{i18n:{{NPC@NAME}}.Day1_0 |DBF={{DBF}} |DBFWm={{DBFWm}} |DBFWm={{DBFWse}} |DBFWm={{DBFWsa}} |DBFWm={{DBFWa}} |DBFWm={{DBFWsh}} |TAH={{TAH}}}}",
+    "{{NPC@NAME}}.Day1_1": "{{i18n:{{NPC@NAME}}.Day1_1 |DBF={{DBF}} |DBFWm={{DBFWm}} |DBFWm={{DBFWse}} |DBFWm={{DBFWsa}} |DBFWm={{DBFWa}} |DBFWm={{DBFWsh}} |TAH={{TAH}}}}",
+    "{{NPC@NAME}}.Day1_Over": "{{i18n:{{NPC@NAME}}.Day1_Over |DBF={{DBF}} |DBFWm={{DBFWm}} |DBFWm={{DBFWse}} |DBFWm={{DBFWsa}} |DBFWm={{DBFWa}} |DBFWm={{DBFWsh}} |TAH={{TAH}}}}"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/Schedules/{{NPC@NAME}}",
+   "Entries": {
+    "{{ModId}}_1": "a1100 Beach {{POSITION1ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_0\"/a1500 Beach {{POSITION2ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_1\"/2100 Beach {{POSITION3ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_Over\"/2400 {{SLEEPPOS}} {{Lowercase:{{NPC@NAME}}}}_sleep"
+   },
+   "{{ModId}}_2": "a1100 Beach {{POSITION1ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_0\"/a1500 Beach {{POSITION2ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_1\"/2100 Beach {{POSITION3ANIM}} \"{{ModId}}\\Dialogue:{{NPC@NAME}}.Day1_Over\"/2400 {{SLEEPPOS}} {{Lowercase:{{NPC@NAME}}}}_sleep"
+  }
+ ]
+}
