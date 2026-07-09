@@ -78,7 +78,7 @@
  //vanilla npcs
  "Sebastian.Day1_0": "Maru said she wanted to be in my life some more, so I figured I'd invite her to this metal show.$h#$b#I hope she likes it.$h",
  "Sebastian.Day1_1": "Been listening to them on and off but live just hits different.$h#${{TAH}} Sebastian \"Half-algorithm, half-deity!\" 1000 0 true",
- "Sebastian.Day1_Over": "So, how was it, Maru?$h#${{DBF}}It was great! The pyrotechnics especially-$h{{DBFM}}#$b#...Well I'm glad.$h",
+ "Sebastian.Day1_Over": "So, how was it, Maru?$h#${{DBF}}It was great! The pyrotechnics especially-$h{{DBMar}}#$b#...Well I'm glad.$h",
  //
  "Maru.Day1_0": "Seb invited me because I asked about his likes.$h#$b#I'm not well versed in metal music... but they do have a lot of interesting devices for effect.$4",
  "Maru.Day1_1": "It's so... loud!$9#$b#But also so fun!$h",
@@ -86,7 +86,7 @@
  //
  "Abigail.Day1_0": "The snacks here are so cheap, it's almost too tempting.$h",
  "Abigail.Day1_1": "I was allowed to play along with my flute.$4",
- "Abigail.Day1_Over": "The masks, the fireworks, the stage atmosphere--Sam we have to-$7#${{DBF}}Yeah, I'm so stoked for our own gig to be this big.$h{{DBFMsa}}",
+ "Abigail.Day1_Over": "The masks, the fireworks, the stage atmosphere--Sam we have to-$7#${{DBF}}Yeah, I'm so stoked for our own gig to be this big.$h{{DBSam}}",
  //
  "Sam.Day1_0": "Seb and Abi thought that seeing other talents that have been around would give me more inspiration.$h",
  "Sam.Day1_1": "The atmosphere of this place is over the top!$8",

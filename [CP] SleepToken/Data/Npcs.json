@@ -30,7 +30,7 @@
     // This is an example based on Clint's clint_hammer animation.
     "{{Vessel}}_1stanim": { // Change this to your animation name
      "SourceRectSize": "32,32", // The size of the animation in pixels.
-     "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+     "DrawOffset": "-16, 0", // For example, Willy's fishing animation uses X=0 Y=96
      "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
      "OnStart": {
       "Emote": null,

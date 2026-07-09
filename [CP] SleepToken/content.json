@@ -29,24 +29,28 @@
    "Value": "action Spiderbuttons.BETAS_DialogueBox {{ModId}}_Fake \""
   },
   {
-   "Name": "DBFWm",
+   "Name": "DBMar",
    "Value": "\" Portraits/Maru [LocalizedText Strings/NPCNames:Maru]"
   },
   {
-   "Name": "DBFWsa",
+   "Name": "DBSam",
    "Value": "\" Portraits/Sam [LocalizedText Strings/NPCNames:Sam]"
   },
   {
-   "Name": "DBFWse",
+   "Name": "DBSeb",
    "Value": "\" Portraits/Sebastian [LocalizedText Strings/NPCNames:Sebastian]"
   },
   {
-   "Name": "DBFWa",
+   "Name": "DBAbi",
    "Value": "\" Portraits/Abigail [LocalizedText Strings/NPCNames:Abigail]"
   },
   {
-   "Name": "DBFWsh",
+   "Name": "DBSha",
    "Value": "\" Portraits/Shane [LocalizedText Strings/NPCNames:Shane]"
+  },
+  {
+   "Name": "Combiner",
+   "Value": "|DBF={{DBF}} |DBMar={{DBMar}} |DBSam={{DBSam}} |DBSeb={{DBSeb}} |DBAbi={{DBAbi}} |DBSha={{DBSha}} |TAH={{TAH}}"
   }
  ],
  "Changes": [
