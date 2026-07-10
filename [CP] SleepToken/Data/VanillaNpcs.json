@@ -1,11 +1,6 @@
 {
  "Changes": [
   {
-   "Action": "Load",
-   "Target": "{{ModId}}/Dialogue",
-   "FromFile": "Blank.json"
-  },
-  {
    "Action": "Include",
    "FromFile": "Data/VanillaTemplate.json",
    "LocalTokens": {

@@ -57,6 +57,11 @@
   //charloads
   {
    "Action": "Load",
+   "Target": "{{ModId}}/Dialogue",
+   "FromFile": "Blank.json"
+  },
+  {
+   "Action": "Load",
    "Priority": "Low",
    "Target": "Portraits/{{Vessel}}, Portraits/{{II}}, Portraits/{{III}}, Portraits/{{IV}}, Characters/{{Vessel}}, Characters/{{II}}, Characters/{{III}}, Characters/{{IV}}",
    "FromFile": "Assets/{{Target}}.png"

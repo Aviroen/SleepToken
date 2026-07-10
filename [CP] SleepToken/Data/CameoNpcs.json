@@ -1,0 +1,32 @@
+{
+ "Changes": [
+  {
+   "When": {
+    "HasMod": "handwrittenhello.dbda"
+   },
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "CharlesRowland",
+    "POSITION1ANIM": "77 42 3 charles_music",
+    "POSITION2ANIM": "75 28 3",
+    "POSITION3ANIM": "77 42 3 charles_music",
+    "SLEEPPOS": "handwrittenhello.dbda_DeadBoyAgency 10 7 3"
+   }
+  },
+  {
+   "When": {
+    "HasMod": "handwrittenhello.dbda"
+   },
+   "Action": "Include",
+   "FromFile": "Data/VanillaTemplate.json",
+   "LocalTokens": {
+    "NPC@NAME": "JennyButcher",
+    "POSITION1ANIM": "78 42 3 jenny_smoke",
+    "POSITION2ANIM": "75 29 3",
+    "POSITION3ANIM": "78 42 3 jenny_smoke",
+    "SLEEPPOS": "handwrittenhello.dbda_TongueAndTail 16 12 1 jenny_sleep"
+   }
+  }
+ ]
+}
