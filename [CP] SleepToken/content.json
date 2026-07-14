@@ -132,6 +132,12 @@
        "ItemId": "(O)903",
        "AvailableStock": -1,
        "AvailableStockLimit": "Global"
+      },
+      {
+       "Id": "reyphorian.OtS_Catalogue",
+       "ItemId": "(F)reyphorian.OtS_Catalogue",
+       "Condition": "Spiderbuttons.BETAS_HAS_MOD reyphorian.OtS",
+       "Price": 20000
       }
      ],
      "Owners": [
