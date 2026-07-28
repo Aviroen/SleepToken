@@ -1,8 +1,8 @@
 {
  "UniqueID": "Aviroen.SleepToken",
- "Name": "[CP] Sleep Token Festival",
+ "Name": "[🚮] Sleep Token Festival",
  "Author": "Aviroen",
- "Version": "1.0.0",
+ "Version": "1.0.1",
  "Description": "Because I have a problem and would like more passive festivals.",
  "ContentPackFor": {
   "UniqueID": "Pathoschild.ContentPatcher"

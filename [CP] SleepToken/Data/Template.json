@@ -8,6 +8,12 @@
    "FromFile": "Blank.json"
   },
   {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/{{ModId}}_{{ST@NAME}}, Characters/{{ModId}}_{{ST@NAME}}",
+   "FromFile": "Assets/{{Target}}.png"
+  },
+  {
    "Action": "EditData",
    "Target": "Data/Characters",
    "Entries": {

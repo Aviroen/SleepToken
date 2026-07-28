@@ -8,6 +8,7 @@
 	  <ModFolderName>Passive Festival - Sleep Token Live</ModFolderName>
 	  <Authors>Aviroen</Authors>
 	  <UniqueId>Aviroen.SleepToken</UniqueId>
+	  <Version>1.0.1</Version>
 	  <UpdateKeys>Nexus:26734@SleepToken, Nexus:26734@SleepTokenMusic, GitHub:Aviroen/SleepToken</UpdateKeys>
   </PropertyGroup>
 

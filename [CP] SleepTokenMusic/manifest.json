@@ -1,8 +1,8 @@
 {
  "UniqueID": "Aviroen.SleepTokenMusic",
- "Name": "[CP] Sleep Token Festival Music",
+ "Name": "[🚮] Sleep Token Festival Music",
  "Author": "Aviroen",
- "Version": "1.0.0",
+ "Version": "1.0.1",
  "Description": "The actual audio content for the Sleep Token passive festival, just in case.",
  "ContentPackFor": {
   "UniqueID": "Pathoschild.ContentPatcher"

@@ -106,6 +106,14 @@
  //
  "JennyButcher.Day1_0": "Metal shows?#$e#I love them!$h#$b#I stopped listening for awhile because of my ex.$7#$b#I was the one that introduced the genre, but then I realized, it's MY thing.$2#$b#And I'm not gonna let someone who stifled me like that ruin it for me!$h#${{TAH}} Leah \"Man, that felt great to let out.\" 1000 0 true",
  "JennyButcher.Day1_1": "The inspiration, the masks, the music, I missed all of this.$h#${{TAH}} Leah \"Diamonds in the trees, pentagrams in the night sky!\" 1000 0 true",
- "JennyButcher.Day1_Over": "Hopefully we can convince Lewis to keep this as a yearly gig.$4#$b#They just fuel so much inspiration in me!$h"
+ "JennyButcher.Day1_Over": "Hopefully we can convince Lewis to keep this as a yearly gig.$4#$b#They just fuel so much inspiration in me!$h",
+ //
+ "JortsCat.Day1_0": "There's so many loud noises here.$6#$b#But the people have been giving us good treats!$1",
+ "JortsCat.Day1_1": "%Jorts is asleep, somehow, next to the loud speaker. Must be the vibrations.",
+ "JortsCat.Day1_Over": "Jean, can I go touch the sparkly thing?$2#${{DBF}}No, you might set your fur on fire again.$3\" Portraits/JeanCat [LocalizedText Strings/NPCNames:JeanCat]",
+ //
+ "JeanCat.Day1_0": "Hello, @, we heard the commotion and decided to see what the noise was about.$1",
+ "JeanCat.Day1_1": "The ones on stage gave us premium treats, they're allowed to come back.$1",
+ "JeanCat.Day1_Over": "Jorts?$4#${{DBF}}Mhhhm?$3\" Portraits/JortsCat [LocalizedText Strings/NPCNames:JortsCat]#$b#Got a little too ahead of yourself, there?$6"
 
 }
